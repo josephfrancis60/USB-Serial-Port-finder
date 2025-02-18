@@ -30,8 +30,8 @@ if __name__ == "__main__":
     usb_serial_ports = find_usb_serial_ports()
 
     if usb_serial_ports:
-        print("USB Serial Ports Found:")
+        print("Serial Ports Found:")
         for port in usb_serial_ports:
             print(port)
     else:
-        print("No USB Serial Ports Found.")
+        print("No Serial Ports Found.")
